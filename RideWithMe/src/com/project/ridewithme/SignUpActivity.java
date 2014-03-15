@@ -1,5 +1,8 @@
 package com.project.ridewithme;
 
+//import com.deitel.favoritetwittersearches.R;
+
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -12,17 +15,16 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Button;
 
-public class MainActivity extends Activity {
+public class SignUpActivity extends Activity {
 	
-	private EditText enterEmail;
+	private EditText enterUsernames;
 	private EditText enterPassword;
-	private Button loginButton;
-	private Button signUp;
+	private Button signupButton;
 	@Override
 	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_sign_up);
 	}
 
 	@Override
@@ -32,14 +34,7 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
-	public OnClickListener signUpButtonListener = new OnClickListener() {
-      @Override
-      public void onClick(View v) 
-      {
-         setContentView(R.layout.activity_sign_up);// create tag if both queryEditText and tagEditText are not empty
-         
-      } // end method onClick
-   };
+
 	
 
 }

@@ -20,15 +20,15 @@
       <TextView
        		 android:layout_width="wrap_content"
        		 android:layout_height="wrap_content"
-      		 android:text="@string/username" />
+      		 android:text="@string/email" />
    </TableRow>
    <TableRow android:id="@+id/tableRow2" 
       android:layout_height="wrap_content" 
       android:layout_width="match_parent">
       <EditText android:layout_width="match_parent" 
          android:layout_height="wrap_content" android:layout_span="2" 
-         android:inputType="text" android:id="@+id/enterUsername"  
-         android:hint="@string/loginUsername" 
+         android:inputType="text" android:id="@+id/enterEmail"  
+         android:hint="@string/loginEmail" 
          android:imeOptions="actionNext">
       </EditText>
    </TableRow>
@@ -61,14 +61,14 @@
          android:text="@string/loginButton"></Button>
    </TableRow>
    
-   <TableRow android:id="@+id/tableRow5" 
+   <TableRow android:id="@+id/tableRow10" 
       android:layout_height="wrap_content" 
       android:layout_width="match_parent">
-      <Button android:id="@+id/loginButton" 
+      <Button android:id="@+id/signUpButton" 
          android:layout_height="wrap_content" 
          android:layout_width="wrap_content" 
          android:layout_gravity="center_horizontal" 
-         android:text="@string/loginButton"></Button>
+         android:text="@string/signUpButton"></Button>
    </TableRow>
    		   
 
