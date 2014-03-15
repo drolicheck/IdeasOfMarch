@@ -1,8 +1,5 @@
 package com.project.ridewithme;
 
-//import com.deitel.favoritetwittersearches.R;
-
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;

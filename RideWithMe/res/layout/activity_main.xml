@@ -60,6 +60,16 @@
          android:layout_gravity="center_horizontal" 
          android:text="@string/loginButton"></Button>
    </TableRow>
+   
+   <TableRow android:id="@+id/tableRow5" 
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+      <Button android:id="@+id/loginButton" 
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:layout_gravity="center_horizontal" 
+         android:text="@string/loginButton"></Button>
+   </TableRow>
    		   
 
 </TableLayout>
