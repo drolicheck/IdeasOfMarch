@@ -1,12 +1,27 @@
 package com.project.ridewithme;
 
+//import com.deitel.favoritetwittersearches.R;
+
+
 import android.os.Bundle;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Context;
 import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
-
+	
+	private EditText enterUsernames;
+	private EditText enterPassword;
+	private Button loginButton;
 	@Override
+	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
@@ -18,5 +33,8 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
+
+
+	
 
 }
